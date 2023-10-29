@@ -1,0 +1,128 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    background-color: #1f2833;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #45a29e;
+    padding: 15px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1f2833;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #66fcf1;
+    color: #1f2833;
+}
+
+/* Menu button styles */
+#menu-button {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #ffffff;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+}
+
+/* Main content styles */
+main {
+    margin: 40px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+picture {
+    margin: 0 auto;
+}
+
+picture img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #66fcf1;
+    box-shadow: 0 0 20px #66fcf1;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.proskills {
+    background-color: #1f2833;
+    color: #66fcf1;
+    border: 2px solid #66fcf1;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.proskills h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+#buttonsli {
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #66fcf1;
+    color: #1f2833;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#buttonsli:hover {
+    background-color: #45a29e;
+}
+
+footer {
+    background-color: #45a29e;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.welcomemsg, #name {
+    color: #66fcf1;
+    padding: 20px 0;
+}
+
+/* Style the active link */
+nav a.active {
+    background-color: #66fcf1;
+    color: #1f2833;
+}
