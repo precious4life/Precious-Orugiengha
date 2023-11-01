@@ -9,10 +9,10 @@ pictureElement.setAttribute("alt", fullName);
 
 // Skills Earned
 
-let programmingBackground = ["Html ",  "  Css ",  " Javascript ", "  Python ", "  Csharp"]
+let programmingBackground = []
 
 let pBackgroundElement = document.getElementById("buttonsli");
-let programmingBackgroundstring = programmingBackground.join("||");
+let programmingBackgroundstring = programmingBackground.join("|");
 pBackgroundElement.innerHTML = programmingBackgroundstring;
 
 
