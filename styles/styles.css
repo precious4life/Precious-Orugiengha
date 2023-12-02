@@ -1,0 +1,114 @@
+
+:root{
+    background-color: rgb(0, 0, 0);
+}
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5 2.5fr 1fr 3fr 0.5fr;
+
+    grid-template-areas: 
+    "logo nav nav nav nav"
+    "msp-slogan msp-slogan msp-slogan msp-slogan msp-slogan"
+    "rec-image rec-image rec-image rec-image rec-image"
+    "image1 image1 image2 image3 image3"
+    "text1 text1 text1 text1 text1"
+    "footer footer footer footer footer";
+    grid-gap: 0.2em;
+}
+
+
+.logo{
+    
+    grid-area:logo;
+}
+.logo img{
+    object-fit: cover;
+    height: 100px;
+    width: 100%;
+}
+nav{
+    grid-area: nav;
+    background-color: rgb(208, 75, 18);
+    max-height: 50px;
+}
+.msp-slogan{
+
+    grid-area: msp-slogan;
+    text-align: center;
+    margin: auto;
+    color: antiquewhite;
+}
+
+#rec-image{
+    grid-area: rec-image;
+    margin-top: 0.3em;
+    padding-top: 0.2em;
+}
+
+#rec-image img{
+    height: 75%;
+    object-fit: cover;
+    width: 100%;
+}
+
+#image1{
+    background-color: skyblue;
+    grid-area: image1;  
+}
+
+#image1 img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+#image2{
+    background-color: beige;
+    grid-area: image2;
+}
+
+#image2 img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+#image3{
+    background-color: aqua;
+    grid-area: image3;
+}
+
+#image3 img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+#text1{
+    
+    border: 5px white dashed;
+    
+    margin-top: 3em;
+    margin-bottom: 3em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    grid-area: text1;
+    background-color: rgb(208, 75, 18);
+}
+.text1{
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+    text-align: center;
+    margin: auto;
+}
+
+#footer{
+    background-color: rgb(208, 75, 18);
+    grid-area: footer;
+    width: 100%;
+}
