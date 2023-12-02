@@ -4,6 +4,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    background-color: black;
 
 }
 
@@ -35,7 +36,7 @@
 }
 nav{
     grid-area: nav;
-    background-color: rgb(208, 75, 18);
+    
     max-height: 80px;
 }
 
@@ -131,6 +132,13 @@ a.active,a:hover{
     color: aliceblue;
     text-align: center;
     margin:0 auto;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+
 }
 
 #footer{
